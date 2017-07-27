@@ -1,0 +1,266 @@
+/*блок меню макета*/
+.menu {
+  list-style-type: none;
+/*   border: 1px solid-black; */
+  padding: 0;
+  display: flex; 
+  flex-direction: column;
+  text-align: center;
+  color: black;
+  line-height: 50px;
+/*   justify-content: space-around; */
+/*   align-items: flex-start; */
+}
+.menu li {
+  /*  border: 1px solid black; */
+  /* display: inline-block; */
+  background-color: #26d2fc;
+  width: 270px;
+  height: 56.74px;
+}
+
+  
+.menu li a {
+ /*  border 4px solid-blue; */
+  display: block;
+  text-decoration: none;
+  text-align: center;
+  width: 100%;
+  height: 100%;
+/* font-family: Roboto;
+color: #000000;
+font-size: 14px; Приближение из-за подстановки шрифтов
+font-weight: 900;
+line-height: 36px; Приближение из-за подстановки шрифтов
+text-align: left;
+font-family: Roboto;
+color: #ffffff;
+font-size: 14px; Приближение из-за подстановки шрифтов
+font-weight: 900;
+line-height: 36px; Приближение из-за подстановки шрифтов
+text-align: left;
+font-family: Roboto;
+color: #333333;
+font-size: 14px; Приближение из-за подстановки шрифтов
+font-weight: 900;
+line-height: 36px; Приближение из-за подстановки шрифтов
+text-align: left; */
+
+}
+
+.menu li a:hover {
+  background-color: black; 
+  color: white;
+}
+/*CSS для пункта меню MENU*/
+/*background-color: #333333;
+width: 270px;
+height: 66px;
+color: white;*/
+
+h4 {
+  
+  display: block;
+  color: white;
+  background-color: black;
+  width: 270px;
+  height: 56.74px;
+  flex-direction: column;
+  text-align: center;
+  font-style: italic;
+  font-size: 16px;
+  display: flex;
+  line-height: 55px;
+}
+
+h4 {
+  background-color: black;
+  position: absolute;
+  top: -5px;
+}
+/*блок картинок товаров*/
+.main_block_products {
+  padding: 10px;
+  background-color: #f8f8f8;
+  width: 870px;
+  height: 1790px;
+  position: relative;
+  /*text-align: left;*/
+  border: 3px dashed #645a4e;
+}
+.block_new_products {
+  /*display: flex*/
+  padding: 10px;
+  border: 3px dashed red;
+  background-color: #f8f8f8;
+  width: 835px;
+  height: 724px;
+  position: relative;
+  /*text-align: left;*/
+  }
+.block_top_products {
+  top: 10px;
+/*  display: flex*/
+  padding: 10px;
+  border: 3px dashed blue;
+  background-color:  #f8f8f8;
+  width: 835px;
+  height: 400px;
+  position: relative;
+  /*display:inline;*/
+  text-align: right;
+  /*color: red;*/
+  /*text-align: left;*/
+}
+.block_sale_products {
+  top: 10px;
+  /*display: flex*/
+  padding: 10px;
+  border: 3px dashed green;
+  background-color:  #f8f8f8;
+  width: 835px;
+  height: 380px;
+  position: relative;
+  /*text-align: right;*/ 
+}
+ .product_1 {
+  position: relative; 
+  width: 250px;
+  top: 10px; 
+  left: 10px;
+  padding: 10px;
+  background: #ffffff; 
+  border: 3px dashed #312a22;
+  /*line-height: 25px;*/
+}
+/*.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+}*/
+ .product_2 {
+  position: relative;
+  /*float: left;*/ 
+  width: 250px;
+  left: 288px;
+  top: -303px;
+  padding: 10px;
+  background: #ffffff; 
+  border: 3px dashed #312a22;
+}
+ .product_3 {
+  position: relative;
+  clear: both;
+  /*float: left;*/ 
+  width: 255px;
+  float: left;
+  left: 565px;
+  top: -615px;
+  padding: 10px;
+  background: #ffffff; 
+  border: 3px dashed #312a22;
+}
+
+.product_4 {
+  position: relative; 
+  width: 250px;
+  height: 290px;
+  clear: both;
+  top: -580px; 
+  left: 10px;
+  padding: 10px;
+  background: #ffffff; 
+  border: 3px dashed #312a22;
+}
+.product_5 {
+  position: relative;
+  /*float: left;*/ 
+  width: 250px;
+  top: -896px; 
+  left: 288px;
+  padding: 10px;
+  background: #ffffff; 
+  border: 3px dashed #312a22;
+}
+ .product_6 {
+  position: relative; 
+  width: 250px;
+  left: 566px;
+  top: -1208px;
+  padding: 10px;
+  background: #ffffff; 
+  border: 3px dashed #312a22;
+}
+.product_7 {
+  position: relative; 
+  width: 250px;
+  height: 290px;
+  clear: both;
+  top: -100px; 
+  left: 5px;
+  padding: 10px;
+  background: #ffffff; 
+  border: 3px dashed #312a22;
+}
+.product_8 {
+  position: relative; 
+  width: 250px;
+  /*float: left;*/
+  /*height: 250px;*/
+  /*height: 290px;*/
+  /*clear: both;*/
+  top: -415px; 
+  left: 280px;
+  padding: 10px;
+  background: #ffffff; 
+  border: 3px dashed #312a22;
+}
+.product_9 {
+  position: relative; 
+  width: 250px;
+  height: 290px;
+  clear: both;
+  top: -728px; 
+  left: 560px;
+  padding: 10px;
+  background: #ffffff; 
+  border: 3px dashed #312a22;
+}
+.product_10 {
+  position: relative; 
+  width: 250px;
+  height: 287px;
+  top: -3px; 
+  left: 1px;
+  padding: 10px;
+  background: #ffffff; 
+  border: 3px dashed #312a22;
+  clear: both;
+}
+.product_11 {
+  position: relative; 
+  width: 250px;
+  top: -318px; 
+  left: 279px;
+  padding: 10px;
+  background: #ffffff; 
+  border: 3px dashed #312a22;
+}
+.product_12 {
+  position: relative; 
+  width: 250px;
+  top: -630px; 
+  left: 559px;
+  padding: 10px;
+  background: #ffffff; 
+  border: 3px dashed #312a22;
+}
+/*.h2 {
+  display:inline;
+  text-align: right;
+  color: red;
+}*/
+/*невидимая строка-компенсация размера
+блока картинки*/
+.empty {
+  visibility: hidden;
+}
