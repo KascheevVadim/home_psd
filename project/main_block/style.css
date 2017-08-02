@@ -1,3 +1,70 @@
+.menu li {
+  /*  border: 1px solid black; */
+  /* display: inline-block; */
+  background-color: #26d2fc;
+  width: 270px;
+  height: 56.74px;
+}
+
+  
+.menu li a {
+ /*  border 4px solid-blue; */
+  display: block;
+  text-decoration: none;
+  text-align: center;
+  width: 100%;
+  height: 100%;
+/* font-family: Roboto;
+color: #000000;
+font-size: 14px; Приближение из-за подстановки шрифтов
+font-weight: 900;
+line-height: 36px; Приближение из-за подстановки шрифтов
+text-align: left;
+font-family: Roboto;
+color: #ffffff;
+font-size: 14px; Приближение из-за подстановки шрифтов
+font-weight: 900;
+line-height: 36px; Приближение из-за подстановки шрифтов
+text-align: left;
+font-family: Roboto;
+color: #333333;
+font-size: 14px; Приближение из-за подстановки шрифтов
+font-weight: 900;
+line-height: 36px; Приближение из-за подстановки шрифтов
+text-align: left; */
+
+}
+
+.menu li a:hover {
+  background-color: black; 
+  color: white;
+}
+/*CSS для пункта меню MENU*/
+/*background-color: #333333;
+width: 270px;
+height: 66px;
+color: white;*/
+
+h4 {
+  
+  display: block;
+  color: white;
+  background-color: black;
+  width: 270px;
+  height: 56.74px;
+  flex-direction: column;
+  text-align: center;
+  font-style: italic;
+  font-size: 16px;
+  display: flex;
+  line-height: 55px;
+}
+
+h4 {
+  background-color: black;
+  position: absolute;
+  top: -5px;
+}
 .main_block_products {
   padding: 10px;
   background-color: #f8f8f8;
@@ -206,4 +273,67 @@
   padding: 10px;
   border: 3px dashed green;
   position: relative;
+}
+.banner_jp {
+  background-color:  #fff51f;
+  /*жёлтый "купи"*/
+  width: 124px;
+  height: 49px;
+}
+.aggregate {
+  padding: 10px;
+  border: 3px dashed green;
+  background-color: #f8f8f8;
+  width: 1150px;
+  height: 1624px;
+  position: relative;
+}
+.logotyp {
+  width: 125px; /* Ширина слоя */
+  margin: 7px; /* Значение отступов */
+  border: 4px solid black; /* Параметры границы */
+  padding: 10px; /* Поля вокруг текста */
+  display: block;
+  position: absolute;
+  top: 9px;
+  left: 234px;
+}
+.funride {
+  display: block;
+  position: absolute;
+  right: 170px;
+  top:228px;
+  font-family: Raleway;
+  color:  #fff51f;
+  font-size: 48px;/* Приближение из-за подстановки шрифтов */
+  font-weight: 700;
+  line-height: 34px;/* Приближение из-за подстановки шрифтов */
+  text-align: left;
+}
+.weelcom {
+  display: block;
+  position: absolute;
+  bottom: 79px;
+  left: 165px;
+  background-color:  #fff51f;
+  width: 270px;
+  height: 300px;
+}
+.banner_welc {
+  font-family: Raleway;
+  color:  #333333;
+  font-size: 30px;/* Приближение из-за подстановки шрифтов */
+  font-weight: 700;
+  line-height: 30px;/* Приближение из-за подстановки шрифтов */
+  text-align: left;
+}
+.p {
+  /*параграф баннера welcom-надо исключить 
+  влияние на друг параграфы  */
+  font-family: Raleway;
+  color:  #333333;
+  font-size: 18px;/* Приближение из-за подстановки шрифтов */
+  font-weight: 700;
+  line-height: 14px;/* Приближение из-за подстановки шрифтов */
+  text-align: left;
 }
